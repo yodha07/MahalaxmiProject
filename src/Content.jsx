@@ -15,7 +15,7 @@ export function Content(){
                     <li className="drop-shadow-md"style={{ textShadow: '1px 5px 5px rgba(0, 0, 0, 0.2)' }}>Louvers</li>
                     <li className="drop-shadow-md"style={{ textShadow: '1px 5px 5px rgba(0, 0, 0, 0.2)' }}>We got it all</li>
                   </ul>
-                  <button className="bg-[#7b3f30] text-white font-semibold px-6 py-4 rounded-md text-shadow drop-shadow-md hover:bg-[#6a362a] transition">
+                  <button className="bg-[#7b3f30] text-[#FFB775] font-semibold px-6 py-4 rounded-md text-shadow drop-shadow-md hover:bg-[#844839] transition cursor-pointer">
                     Contact us
                   </button>
               </div>
@@ -102,10 +102,10 @@ export function Content(){
           style={{ textShadow: '1px 5px 5px rgba(0, 0, 0, 0.2)' }}
           >About us</h2>
 
-          <div className="flex flex-col md:flex-row items-center justify-between gap-10 py-10">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-10">
               <img src="/founder.png" alt="Founder" className="w-full md:w-[400px] h-auto object-cover rounded-2xl" />
 
-              <div className="flex-1">
+              <div className="flex-1  ">
                   <h1 className="text-3xl md:text-6xl font-bold text-[#7b3f30] mb-2 tracking-tighter drop-shadow-md"
                   style={{ textShadow: '1px 5px 5px rgba(0, 0, 0, 0.2)' }}>Rushi Sutar</h1>
                   <h2 className="text-xl md:text-4xl font-bold text-[#7b3f30] mb-2 tracking-tighter drop-shadow-md py-2.5"
